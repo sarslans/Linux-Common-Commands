@@ -1,0 +1,8 @@
+1-status of process
+
+ps ux
+
+2-This commands lists bash process which used by test user with date and process name
+
+ps ux | awk '/bash/{print $1 "\t" $9 "\t"$11}'
+

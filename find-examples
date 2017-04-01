@@ -2,5 +2,10 @@
 
 find . -name "*.sh" |xargs  grep -i "hosts"
 
+2-This command looks for the files in the current and subsequent directories with an extension c,v from the result (with sed ), use the result and use grep command to search for all occurrences of the word HOST in the files
+
+find ./ -name "*.c,v" | sed 's/,v//g' | xargs grep "hosts"
+
+
 
 
