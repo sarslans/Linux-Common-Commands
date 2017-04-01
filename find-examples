@@ -1,0 +1,6 @@
+1-This command looks for file with an extension ".sh", and has the occurrence of the string "hosts" in it
+
+find . -name "*.sh" |xargs  grep -i "hosts"
+
+
+
