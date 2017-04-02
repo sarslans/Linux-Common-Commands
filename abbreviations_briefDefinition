@@ -1,0 +1,39 @@
+*******SSL Certification*********
+SSL - Secure Socket Layer
+SSL Certification contains a Public Key, a Private Key. 
+Private key with the code and Public key used to decote it.
+The private key is installed on the server and never shared with anyone.The Public key 
+is incorporated into the SSL certificate and shared with web browsers.
+
+ ******* SSL / TLS / HTTPS ************************
+
+SSL (Secure Socket Layer) or TLS (Transport Layer Security) works on top of the transport layer, in your examples TCP. TLS can be used for more or less any protocol, HTTPS is just one common instance of it.
+
+HTTP is an application layer protocol.
+
+In regular, non-encrypted HTTP, the protocol stack can look like this:
+
+    HTTP
+    TCP
+    IP
+    Ethernet
+
+When using HTTPS, the stack looks like this:
+
+    HTTP
+    TLS (SSL)
+    TCP
+    IP
+    Ethernet
+
+HTTPS runs over SSL (as it's name suggests, HTTP-over-SSL), not SSL over HTTP. First SSL session is established, then all HTTP data are wrapped into secured SSL packets before sending and after receiving.
+
+*******************************************************************************
+
+
+
+
+
+
+
+
