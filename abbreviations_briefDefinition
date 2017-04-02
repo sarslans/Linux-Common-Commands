@@ -26,7 +26,8 @@ When using HTTPS, the stack looks like this:
     IP
     Ethernet
 
-HTTPS runs over SSL (as it's name suggests, HTTP-over-SSL), not SSL over HTTP. First SSL session is established, then all HTTP data are wrapped into secured SSL packets before sending and after receiving.
+HTTPS runs over SSL (as it's name suggests, HTTP-over-SSL), not SSL over HTTP. First SSL session is established, 
+then all HTTP data are wrapped into secured SSL packets before sending and after receiving.
 
 *******************************************************************************
 
