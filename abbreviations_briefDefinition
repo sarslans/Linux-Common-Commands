@@ -7,7 +7,7 @@ is incorporated into the SSL certificate and shared with web browsers.
 
  ******* SSL / TLS / HTTPS ************************
 
-SSL (Secure Socket Layer) or TLS (Transport Layer Security) works on top of the transport layer, in your examples TCP. TLS can be used for more or less any protocol, HTTPS is just one common instance of it.
+SSL (Secure Socket Layer) or TLS (Transport Layer Security) works on top of the transport layer.
 
 HTTP is an application layer protocol.
 
